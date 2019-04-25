@@ -33,6 +33,7 @@ teY=y;
 trY=transLabel(trY);
 teY=transLabel(teY);
 %{
+% uncomment this block if you want to compare with uniform sampling
 %----------------tune regularization for C-SVM, libsvm---------------------
 [model, bestC]=autoTune(trY,trX,10);
 %--------------------------------------------------------------------------
