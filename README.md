@@ -1,7 +1,7 @@
 # RZSG
 Robust Zero-Sum Gaming method for active learning. The matlab code only for binary classification case in shallow learning. These are just demo codes for implementation. 
 
-Run demo.m for experiments after putting your training and testing data under data folder. e.g. *demo('german', 5, 20, 5)*
+Run demo.m for experiments after putting your training and testing data under data folder. e.g. *demo('german', 5, 20, 5)* (Details for function parameters are included in the code.)
 
 The proposed algorithm is implemented in RZSG.m. 
 
