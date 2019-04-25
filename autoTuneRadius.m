@@ -1,6 +1,6 @@
 function [bestK, bestO]=autoTuneRadius(y,X,gamma,eta)
-%kappa=[0.001,0.01,0.1,1,10,100,1000];
-kappa=[0.01,0.1,1];
+%kappa=[0.001,0.01,0.1,1,10,100,1000];  
+kappa=[0.01,0.1,1]; % can be adjusted to the same range as baselines.
 omega=kappa;
 [N,D]=size(X);
 if N*D > 1e6 || N>1e5
